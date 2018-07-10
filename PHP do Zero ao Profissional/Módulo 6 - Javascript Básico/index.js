@@ -8,19 +8,19 @@
 
 //teste https://jsfiddle.net
 
-function alterar(nome) {
-    var area = document.getElementById('area');
-    var texto = prompt("Qual nome?");
+// function alterar(nome) {
+//     var area = document.getElementById('area');
+//     var texto = prompt("Qual nome?");
 
-    area.innerHTML = nome + " " + texto;
-}
+//     area.innerHTML = nome + " " + texto;
+// }
 
-function adicionar() {
-    var item = document.getElementById('ingrediente').value;
-    var listaitem = document.getElementById('lista').innerHTML;
+// function adicionar() {
+//     var item = document.getElementById('ingrediente').value;
+//     var listaitem = document.getElementById('lista').innerHTML;
 
-    listaitem = listaitem + "<li>" + item + "</li>";
+//     listaitem = listaitem + "<li>" + item + "</li>";
 
-    document.getElementById('lista').innerHTML = listaitem;w
+//     document.getElementById('lista').innerHTML = listaitem;
 
-}
+// }
