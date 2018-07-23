@@ -1,5 +1,3 @@
 <?php
-echo "Meu php funcionando normalmente";
-
-
+    echo "Meu php funcionando normalmente";
 ?>
