@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <style type="text/css">
+        .row [class^=col-],
+        .row .col {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color: palegreen">Meu container fluid</div>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="background-color: #fd7e14">Uma</div>
+            <div class="col" style="background-color: #17a2b8">Duas</div>
+            <div class="col" style="background-color:#dc3545">trez</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="background-color: #fd7e14">Uma</div>
+            <div class="col-4" style="background-color: #17a2b8">Duas</div>
+            <div class="col" style="background-color:#dc3545">trez</div>
+            <div class="col" style="background-color: #fd7e14">Uma</div>
+            <div class="col" style="background-color: #17a2b8">Duas</div>
+            <div class="col" style="background-color:#dc3545">trez</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col order-2" style="background-color: #fd7e14">Uma</div>
+            <div class="col" style="background-color: #17a2b8">Duas</div>
+            <div class="col order-first" style="background-color:#dc3545">trez</div>
+            <div class="col" style="background-color: #fd7e14">Quatro</div>
+            <div class="col order-last" style="background-color: #17a2b8">Cinco</div>
+            <div class="col" style="background-color:#dc3545">Seis</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="background-color:#fd7e14">Uma</div>
+            <div class="col" style="background-color:#17a2b8">Duas</div>
+            <div class="col" style="background-color:#dc3545">trez</div>
+            <div class="col" style="background-color:#fd7e14">Quatro</div>
+            <div class="col" style="background-color:#17a2b8">Cinco</div>
+            <div class="col" style="background-color:#dc3545">Seis</div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
